@@ -1,4 +1,4 @@
-class Main() {
+class Main {
     function onLoad() {
         trace('olá, mundo');
     }
