@@ -1,5 +1,6 @@
 package;
 
+import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.FlxState;
 import flixel.FlxColor;
@@ -14,5 +15,9 @@ class MenuState {
      }
      override public function Update(elapsed:float):void {
           super.update(elapsed);
+          Text.y++;
+          if (Text > FlxG.height) {
+               Text.y = 0 - 64;
+          }
      }
 }
