@@ -5,7 +5,8 @@ import openfl.Lib;
 import openfl.display.Sprite;
 
 class Main extends Sprite {
-    function onLoad() {
-        trace('olá, mundo');
-    }
+     public function new() {
+         super();
+         addChild(new FlxGame(0, 0, menuState));
+     }
 }
