@@ -4,7 +4,7 @@ import flixel.FlxGame;
 import openfl.Lib;
 import openfl.display.Sprite;
 
-class Main {
+class Main extends Sprite {
     function onLoad() {
         trace('olá, mundo');
     }
