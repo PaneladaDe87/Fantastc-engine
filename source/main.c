@@ -1,4 +1,4 @@
-int menu() {
+int main() {
     printf("hello, user");
     return 0;
 }
